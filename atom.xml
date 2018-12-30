@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-30T07:24:05.415Z</updated>
+  <updated>2018-12-30T10:46:31.867Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,40 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的测试文档</title>
-    <link href="http://yoursite.com/2018/12/30/Mytest/"/>
-    <id>http://yoursite.com/2018/12/30/Mytest/</id>
-    <published>2018-12-30T07:22:34.623Z</published>
-    <updated>2018-12-30T07:24:05.415Z</updated>
+    <title>『重生』hexo 指南</title>
+    <link href="http://yoursite.com/2018/12/30/%E3%80%8E%E9%87%8D%E7%94%9F%E3%80%8Fhexo-%E6%8C%87%E5%8D%97/"/>
+    <id>http://yoursite.com/2018/12/30/『重生』hexo-指南/</id>
+    <published>2018-12-30T10:45:28.000Z</published>
+    <updated>2018-12-30T10:46:31.867Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的测试文档"><a href="#我的测试文档" class="headerlink" title="我的测试文档"></a>我的测试文档</h1><p>很长时间没有动笔写过东西了，突然心血来潮，又想写博客。 很神奇的是就在这个时候发现了 you write这么好的写作工具。真的是要感谢该工具的作者<span style="color:red;">这里的字体应该是红色</span>。fdsfd </p><p>##简单的开始<br>那么从哪里开始呢</p><ul><li>的饭卡</li><li>付定金分开发的</li><li>肯打;jfk</li><li>不寨村邪神m</li></ul><p>阿帆定损Lorem ipsum dolor sit amet, dictas cetero eam in, falli feugait ne duo. Agam causae dolorem ea sed. Eam mollis maiorum assueverit eu <span style="color: red;">per stet quidam molestiae eu</span>. Omnesque inimicus accusamus id quo.</p><p>Tamquam facilisi ea eum, reque saepe interpretaris ex usu, nibh explicari ei qui.</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Array</span>.from(<span class="string">'foo'</span>));</span><br><span class="line"><span class="comment">// expected output: Array ["f", "o", "o"]</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="built_in">Array</span>.from([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], x =&gt; x + x));</span><br><span class="line"><span class="comment">// expected output: Array [2, 4, 6]</span></span><br></pre></td></tr></table></figure><h2 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h2><pre><code>Lorem.ipsum(epicurei[, saepe[, explicari]])</code></pre><p><strong>Parameters</strong></p><table><thead><tr><th>Senserit</th><th>Repudiandae</th><th>Vis</th></tr></thead><tbody><tr><td>epicurei</td><td>Usu no tale prima, vis fugit  id.</td><td>Cu</td></tr><tr><td>saepe</td><td>Ea vis graecis concludaturque.</td><td>Cum</td></tr><tr><td>explicari</td><td>Clita quando <code>this</code> in mea <code>saepe</code>.</td><td>Cum</td></tr></tbody></table><p><strong>Return value</strong></p><p>Ea alii putent integre sed.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;我的测试文档&quot;&gt;&lt;a href=&quot;#我的测试文档&quot; class=&quot;headerlink&quot; title=&quot;我的测试文档&quot;&gt;&lt;/a&gt;我的测试文档&lt;/h1&gt;&lt;p&gt;很长时间没有动笔写过东西了，突然心血来潮，又想写博客。 很神奇的是就在这个时候发现了 you write这么
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/12/30/hello-world/"/>
-    <id>http://yoursite.com/2018/12/30/hello-world/</id>
-    <published>2018-12-30T06:38:35.035Z</published>
-    <updated>2018-12-30T06:38:35.035Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>印象中第一次搭建自己的博客是大二的时候，那个时候自己租了 VPS，自己租了域名，使用 WordPress 框架搭建了一个『半独立』的个人博客。然后 VPS 和 域名到期之后没有及时续费，所以个人博客也就这样关掉了。后来转战 CSDN，将自己的学习笔记和一些学习新的更新在 CSDN 上面。直到有一次， CSDN 管理员在毫无征兆的情况删掉了我的文（bi）章（ji），于是乎又转移到新的阵地：github。</p><p>参考网友们的教程，搭建了现在您正在浏览的个人博客。本文主要目的是记录自己在搭建博客已经后续使用过程中可能会用到的一些方法。</p><ul><li><p>安装/卸载 插件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> npm install 『插件』--save #安装插件</span><br><span class="line"><span class="meta">$</span> npm uninstall 『插件』 #卸载插件</span><br></pre></td></tr></table></figure></li><li><p>部署网页：</p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> hexo clean #清除之前的缓存文件，或者手动删除public 目录</span><br><span class="line"><span class="meta">$</span> hexo g # hexo generate 的缩写，生成静态文件</span><br><span class="line"><span class="meta">$</span> hexo d #hexo deploy 的缩写，部署到远端</span><br><span class="line"><span class="meta">$</span> hexo n #hexo new 的缩写，新建文章</span><br></pre></td></tr></table></figure></li><li><p>启动本地服务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> hexo s #hexo server 的简写，执行该命令后，可访问http://localhost:4000/</span><br></pre></td></tr></table></figure></li><li><p>发表文章</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new “my article” #创建标题为my article 的文章，在本地source/_post 路径下会生成my-article.md文件，用文本编辑工具打开即可编辑文章</span><br><span class="line">$ hexo g -d #将文章部署到远端</span><br></pre></td></tr></table></figure></li></ul><p>上述记录了一些使用较频繁的方法，除此之外。本文参考的一些网友的文章如下：<br>搭建教程：<br><a href="https://oee.ooo/archives/12.html" target="_blank" rel="noopener">https://oee.ooo/archives/12.html</a><br><a href="https://acuario.xyz/hello-hexo/" target="_blank" rel="noopener">https://acuario.xyz/hello-hexo/</a><br>更换主题：<br><a href="https://www.jianshu.com/p/b20fc983005f" target="_blank" rel="noopener">https://www.jianshu.com/p/b20fc983005f</a><br>next 主题官方文档：<br><a href="https://theme-next.iissnan.com/theme-settings.html#author-sites" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html#author-sites</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;印象中第一次搭建自己的博客是大二的时候，那个时候自己租了 VPS，自己租了域名，使用 WordPress 框架搭建了一个『半独立』的个人博客。然后 VPS 和 域名到期之后没有及时续费，所以个人博客也就这样关掉了。后来转战 CSDN，将自己的学习笔记和一些学习新的更新在 C
       
     
     </summary>
