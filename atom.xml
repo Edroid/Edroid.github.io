@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Warren Lee</title>
   
-  
+  <subtitle>总是该写点什么吧</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -31,20 +31,6 @@
       
         &lt;h1 id=&quot;我的测试文档&quot;&gt;&lt;a href=&quot;#我的测试文档&quot; class=&quot;headerlink&quot; title=&quot;我的测试文档&quot;&gt;&lt;/a&gt;我的测试文档&lt;/h1&gt;&lt;p&gt;很长时间没有动笔写过东西了，突然心血来潮，又想写博客。 很神奇的是就在这个时候发现了 you write这么
       
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>My first post</title>
-    <link href="http://yoursite.com/2018/12/30/My-first-post/"/>
-    <id>http://yoursite.com/2018/12/30/My-first-post/</id>
-    <published>2018-12-30T06:56:05.000Z</published>
-    <updated>2018-12-30T06:56:05.266Z</updated>
-    
-    <summary type="html">
     
     </summary>
     
