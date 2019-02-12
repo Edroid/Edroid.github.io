@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-31T03:08:34.246Z</updated>
+  <updated>2019-02-12T03:16:37.822Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lorem ipsum</title>
+    <link href="http://yoursite.com/2019/02/12/2019/"/>
+    <id>http://yoursite.com/2019/02/12/2019/</id>
+    <published>2019-02-12T03:16:37.822Z</published>
+    <updated>2019-02-12T03:16:37.822Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="$appres/images/night.jpg" alt="Nulla euismod, vitae aliquet orci eleifend."></p><h1 id="Lorem-ipsum"><a href="#Lorem-ipsum" class="headerlink" title="Lorem ipsum"></a>Lorem ipsum</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tempor dolor. Nulla hendrerit convallis purus et elementum. Suspendisse non magna vel justo tincidunt finibus. Nullam dui erat, malesuada eget viverra non, finibus a nisl.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;$appres/images/night.jpg&quot; alt=&quot;Nulla euismod, vitae aliquet orci eleifend.&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Lorem-ipsum&quot;&gt;&lt;a href=&quot;#Lorem-ipsum&quot; cl
+      
+    
+    </summary>
+    
+      <category term="consectetur" scheme="http://yoursite.com/categories/consectetur/"/>
+    
+      <category term="malesuada" scheme="http://yoursite.com/categories/consectetur/malesuada/"/>
+    
+    
+      <category term="semper" scheme="http://yoursite.com/tags/semper/"/>
+    
+      <category term="fermentum" scheme="http://yoursite.com/tags/fermentum/"/>
+    
+  </entry>
   
   <entry>
     <title>『重生』hexo 指南</title>
