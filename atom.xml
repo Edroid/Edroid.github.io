@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-12T03:16:37.822Z</updated>
+  <updated>2019-02-12T03:25:37.864Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://yoursite.com/2019/02/12/2019/"/>
     <id>http://yoursite.com/2019/02/12/2019/</id>
     <published>2019-02-12T03:16:37.822Z</published>
-    <updated>2019-02-12T03:16:37.822Z</updated>
+    <updated>2019-02-12T03:25:37.864Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="$appres/images/night.jpg" alt="Nulla euismod, vitae aliquet orci eleifend."></p><h1 id="Lorem-ipsum"><a href="#Lorem-ipsum" class="headerlink" title="Lorem ipsum"></a>Lorem ipsum</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tempor dolor. Nulla hendrerit convallis purus et elementum. Suspendisse non magna vel justo tincidunt finibus. Nullam dui erat, malesuada eget viverra non, finibus a nisl.</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="../images/2019/2019.jpg" alt="Nulla euismod, vitae aliquet orci eleifend."></p><h1 id="Lorem-ipsum"><a href="#Lorem-ipsum" class="headerlink" title="Lorem ipsum"></a>Lorem ipsum</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tempor dolor. Nulla hendrerit convallis purus et elementum. Suspendisse non magna vel justo tincidunt finibus. Nullam dui erat, malesuada eget viverra non, finibus a nisl.</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;$appres/images/night.jpg&quot; alt=&quot;Nulla euismod, vitae aliquet orci eleifend.&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;Lorem-ipsum&quot;&gt;&lt;a href=&quot;#Lorem-ipsum&quot; cl
+        &lt;p&gt;&lt;img src=&quot;../images/2019/2019.jpg&quot; alt=&quot;Nulla euismod, vitae aliquet orci eleifend.&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Lorem-ipsum&quot;&gt;&lt;a href=&quot;#Lorem-ipsum&quot; cla
       
     
     </summary>
