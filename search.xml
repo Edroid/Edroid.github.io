@@ -1,66 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>2019 新的开始</title>
-      <link href="/2019/02/15/-untitled/"/>
-      <url>/2019/02/15/-untitled/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2019-新的开始"><a href="#2019-新的开始" class="headerlink" title="2019 新的开始"></a>2019 新的开始</h1><p>不知不觉已经工作半年有余，回想刚过去的这半年，工作生活都不是特别的满意，很大一部分原因是因为没有做规划吧，生活没有规划，工作没有计划，工资没有计划，读书没有计划，锻炼没有计划。所以整个生活过的十分的随性。我曾经以为自己是一个自律性较高的人，就算没有计划也能够让事情按照自己的意愿去发展，事实证明并非如此。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 个人规划 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2019.2.13</title>
-      <link href="/2019/02/12/2019/"/>
-      <url>/2019/02/12/2019/</url>
-      
-        <content type="html"><![CDATA[<p><img src="../images/2019/2019.jpg" alt="Nulla euismod, vitae aliquet orci eleifend."></p><h1 id="2019"><a href="#2019" class="headerlink" title="2019"></a>2019</h1><p>一直以为自己从未有过爱情，直到这两天与你的相处，才发现自己不仅有过爱情，而且我们的经历足以拍成一部青春电影。<br>自上次分手已经2年4个月整，本以为我们这辈子都不会再见面了，缘分让我们再次走到了一起。</p><p>什么是爱情？之前呢，一直想着单身吧，万一现在谈对象了，以后遇到更好的怎么办？知道遇见你，我觉得于我而言，此生不会有更好的人了。这算爱情吧？</p><p>见面之前，有很多话想跟你说，有很多问题想问你，见面之后，什么话也不想说，什么话也不想问了，因为你都已经用行动告诉我了答案。在我最年轻的日子里，能够遇上你，此生无憾了。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[2019 新的开始]]></title>
+    <url>%2F2019%2F02%2F15%2F-untitled%2F</url>
+    <content type="text"><![CDATA[2019 新的开始不知不觉已经工作半年有余，回想刚过去的这半年，工作生活都不是特别的满意，很大一部分原因是因为没有做规划吧，生活没有规划，工作没有计划，工资没有计划，读书没有计划，锻炼没有计划。所以整个生活过的十分的随性。我曾经以为自己是一个自律性较高的人，就算没有计划也能够让事情按照自己的意愿去发展，事实证明并非如此。]]></content>
+      <tags>
+        <tag>个人规划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[2019.2.13]]></title>
+    <url>%2F2019%2F02%2F12%2F2019%2F</url>
+    <content type="text"><![CDATA[2019一直以为自己从未有过爱情，直到这两天与你的相处，才发现自己不仅有过爱情，而且我们的经历足以拍成一部青春电影。自上次分手已经2年4个月整，本以为我们这辈子都不会再见面了，缘分让我们再次走到了一起。 什么是爱情？之前呢，一直想着单身吧，万一现在谈对象了，以后遇到更好的怎么办？知道遇见你，我觉得于我而言，此生不会有更好的人了。这算爱情吧？ 见面之前，有很多话想跟你说，有很多问题想问你，见面之后，什么话也不想说，什么话也不想问了，因为你都已经用行动告诉我了答案。在我最年轻的日子里，能够遇上你，此生无憾了。]]></content>
       <categories>
-          
-          <category> consectetur </category>
-          
-          <category> malesuada </category>
-          
+        <category>consectetur</category>
+        <category>malesuada</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> personal </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>『重生』hexo 指南</title>
-      <link href="/2018/12/30/%E3%80%8E%E9%87%8D%E7%94%9F%E3%80%8Fhexo-%E6%8C%87%E5%8D%97/"/>
-      <url>/2018/12/30/%E3%80%8E%E9%87%8D%E7%94%9F%E3%80%8Fhexo-%E6%8C%87%E5%8D%97/</url>
-      
-        <content type="html"><![CDATA[<p>印象中第一次搭建自己的博客是大二的时候，那个时候自己租了 VPS &amp; 域名，使用 WordPress 框架搭建了一个『半独立』的个人博客。然后 VPS 和 域名到期之后没有及时续费，所以个人博客也就这样关掉了。后来转战 CSDN，将自己的学习笔记和一些学习心得更新在 CSDN 上面。直到有一次， CSDN 管理员在毫无征兆的情况删掉了我的文（bi）章（ji），于是乎又转移到新的阵地：github。</p><p>参考网友们的教程，搭建了现在您正在浏览的个人博客。本文主要目的是记录自己在搭建博客已经后续使用过程中可能会用到的一些方法。</p><ul><li><p>安装/卸载 插件</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> npm install 『插件』--save #安装插件</span><br><span class="line"><span class="meta">$</span> npm uninstall 『插件』 #卸载插件</span><br></pre></td></tr></table></figure></li><li><p>部署网页：</p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> hexo clean #清除之前的缓存文件，或者手动删除public 目录</span><br><span class="line"><span class="meta">$</span> hexo g # hexo generate 的缩写，生成静态文件</span><br><span class="line"><span class="meta">$</span> hexo d #hexo deploy 的缩写，部署到远端</span><br><span class="line"><span class="meta">$</span> hexo n #hexo new 的缩写，新建文章</span><br></pre></td></tr></table></figure></li><li><p>启动本地服务</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> hexo s #hexo server 的简写，执行该命令后，可访问http://localhost:4000/</span><br></pre></td></tr></table></figure></li><li><p>发表文章</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new “my article” #创建标题为my article 的文章，在本地source/_post 路径下会生成my-article.md文件，用文本编辑工具打开即可编辑文章</span><br><span class="line">$ hexo g -d #将文章部署到远端</span><br></pre></td></tr></table></figure></li></ul><p>上述记录了一些使用较频繁的方法，除此之外。本文参考的一些网友的文章如下：<br>搭建教程：<br><a href="https://oee.ooo/archives/12.html" target="_blank" rel="noopener">https://oee.ooo/archives/12.html</a><br><a href="https://acuario.xyz/hello-hexo/" target="_blank" rel="noopener">https://acuario.xyz/hello-hexo/</a><br>更换主题：<br><a href="https://www.jianshu.com/p/b20fc983005f" target="_blank" rel="noopener">https://www.jianshu.com/p/b20fc983005f</a><br>next 主题官方文档：<br><a href="https://theme-next.iissnan.com/theme-settings.html#author-sites" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html#author-sites</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>personal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[『重生』hexo 指南]]></title>
+    <url>%2F2018%2F12%2F30%2F%E3%80%8E%E9%87%8D%E7%94%9F%E3%80%8Fhexo-%E6%8C%87%E5%8D%97%2F</url>
+    <content type="text"><![CDATA[印象中第一次搭建自己的博客是大二的时候，那个时候自己租了 VPS &amp; 域名，使用 WordPress 框架搭建了一个『半独立』的个人博客。然后 VPS 和 域名到期之后没有及时续费，所以个人博客也就这样关掉了。后来转战 CSDN，将自己的学习笔记和一些学习心得更新在 CSDN 上面。直到有一次， CSDN 管理员在毫无征兆的情况删掉了我的文（bi）章（ji），于是乎又转移到新的阵地：github。 参考网友们的教程，搭建了现在您正在浏览的个人博客。本文主要目的是记录自己在搭建博客已经后续使用过程中可能会用到的一些方法。 安装/卸载 插件 12$ npm install 『插件』--save #安装插件$ npm uninstall 『插件』 #卸载插件 部署网页： 1234$ hexo clean #清除之前的缓存文件，或者手动删除public 目录$ hexo g # hexo generate 的缩写，生成静态文件$ hexo d #hexo deploy 的缩写，部署到远端$ hexo n #hexo new 的缩写，新建文章 启动本地服务 1$ hexo s #hexo server 的简写，执行该命令后，可访问http://localhost:4000/ 发表文章 12$ hexo new “my article” #创建标题为my article 的文章，在本地source/_post 路径下会生成my-article.md文件，用文本编辑工具打开即可编辑文章$ hexo g -d #将文章部署到远端 上述记录了一些使用较频繁的方法，除此之外。本文参考的一些网友的文章如下：搭建教程：https://oee.ooo/archives/12.htmlhttps://acuario.xyz/hello-hexo/更换主题：https://www.jianshu.com/p/b20fc983005fnext 主题官方文档：https://theme-next.iissnan.com/theme-settings.html#author-sites]]></content>
+  </entry>
 </search>
