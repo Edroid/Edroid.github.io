@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-01-16T11:52:22.133Z</updated>
+  <updated>2021-02-28T08:46:52.208Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ext4 文件系统学习笔记</title>
+    <link href="http://yoursite.com/2021/02/28/ext4-%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2021/02/28/ext4-文件系统学习笔记/</id>
+    <published>2021-02-28T07:23:26.000Z</published>
+    <updated>2021-02-28T08:46:52.208Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p>一个逻辑块的大小可能包含一个或多个扇区，每个逻辑块都有唯一的地址，称为LBA。有了逻辑块之后，磁盘控制器对数据的操作就以逻辑块为单位，一次读写一个逻辑块，磁盘控制器知道如何将逻辑块翻译成对应的扇区并读写数据。</p></li><li><p>到了Linux操作系统层次，通过文件系统提供了一个也称为块的读写单元，文件系统数据块的大小一般为1024bytes(1K)或2048bytes(2K)或4096bytes(4K)。</p></li><li><p>文件系统block的出现使得在文件系统层面上读写性能大大提高，也大量减少了碎片。但是它的副作用是可能造成空间浪费。由于文件系统以block为读写单元，即使存储的文件只有1K大小也将占用一个block，剩余的空间完全是浪费的。在某些业务需求下可能大量存储小文件，这会浪费大量的空间。</p></li><li><p><strong>inode</strong>：在文件系统上的术语中，索引节点称为inode。在inode中存储了inode号（注，inode中并未存储inode num，但为了方便理解，这里暂时认为它存储了inode号）、文件类型、权限、文件所有者、大小、时间戳等元数据信息，最重要的是还存储了指向属于该文件block的指针，这样读取inode就可以找到属于该文件的block，进而读取这些block并获得该文件的数据。一般inode大小为128字节或256字节。</p></li><li><p><strong>bmap：</strong>bmap的优化针对的是写优化，因为只有写才需要找到空闲block并分配空闲block。对于读而言，只要通过inode找到了block的位置，cpu就能迅速计算出block在物理磁盘上的地址。而且固态硬盘的随机读和连续读取速度几乎是一致的，对它来说，文件系统碎片的多少并不会影响读取速度。</p></li><li><p>虽然bmap已经极大的优化了扫描，但是仍有其瓶颈：如果文件系统是100G呢？100G的文件系统要使用128*100=12800个1KB大小的block，这就占用了12.5M的空间了</p></li><li><p><strong>inode 表</strong>：将多个inode合并存储在block中，对于128字节的inode，一个block存储8个inode，对于256字节的inode，一个block存储4个inode。这就使得每个存储inode的块都不浪费。在ext文件系统上，将这些物理上存储inode的block组合起来，在逻辑上形成一张inode表(inode table)来记录所有的inode。</p></li><li><p><strong>imap</strong>：标识inode号是否被分配的位图称为inodemap简称为imap。这时要为一个文件分配inode号只需扫描imap即可知道哪一个inode号是空闲的。</p></li><li><p><strong>block group (块组)</strong>：每个块组包含多个元数据区和数据区：元数据区就是存储bmap、inode table、imap等的数据；数据区就是存储文件数据的区域。注意块组是逻辑层面的概念，所以并不会真的在磁盘上按柱面、按扇区、按磁道等概念进行划分。</p></li><li><p><strong>super block(超级块)：</strong>它的block号可能为0也可能为1，存放该文件系统块组数量，每个块组的block数量，inode号，以及文件系统本身的属性信息如各种时间戳、block总数量和空闲数量、inode总数量和空闲数量、当前文件系统是否正常、什么时候需要自检等等。</p><p>如果block大小为1K，则引导块正好占用一个block，这个block号为0，所以superblock的号为1；如果block大小大于1K，则引导块和超级块同置在一个block中，这个block号为0。总之superblock的起止位置是第二个1024(1024-2047)字节。</p><p>使用df命令读取的就是每个文件系统的superblock，所以它的统计速度非常快。相反，用du命令查看一个较大目录的已用空间就非常慢，因为不可避免地要遍历整个目录的所有文件</p></li><li><p><strong>GDT(块组描述符):</strong>ext文件系统每一个块组信息使用32字节描述，这32个字节称为块组描述符。所有块组的块组描述符组成块组描述符表GDT(group descriptor table)。</p></li><li><p><strong>Reserved GDT（保留GDT）</strong>：保留GDT用于以后扩容文件系统使用，防止扩容后块组太多，使得块组描述符超出当前存储GDT的blocks。</p></li><li><p>data block：对于常规文件，文件的数据正常存储在数据块中。对于目录，该目录下的所有文件和一级子目录的目录名存储在数据块中。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;一个逻辑块的大小可能包含一个或多个扇区，每个逻辑块都有唯一的地址，称为LBA。有了逻辑块之后，磁盘控制器对数据的操作就以逻辑块为单位，一次读写一个逻辑块，磁盘控制器知道如何将逻辑块翻译成对应的扇区并读写数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;到了Linu
+      
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>动物农场 读书笔记</title>
