@@ -379,6 +379,27 @@
   
   <entry>
     <title></title>
+    <link href="http://yoursite.com/2021/10/17/vx/"/>
+    <id>http://yoursite.com/2021/10/17/vx/</id>
+    <published>2021-10-17T08:41:56.216Z</published>
+    <updated>2021-10-17T08:46:34.338Z</updated>
+    
+    <content type="html"><![CDATA[{"created_time":"2021-10-17T08:41:56Z","files":[],"folders":[{"name":"vx_recycle_bin"},{"name":"从租房到简装"}],"id":"1","modified_time":"2021-10-17T08:41:56Z","version":"1"}]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        {&quot;created_time&quot;:&quot;2021-10-17T08:41:56Z&quot;,&quot;files&quot;:[],&quot;folders&quot;:[{&quot;name&quot;:&quot;vx_recycle_bin&quot;},{&quot;name&quot;:&quot;从租房到简装&quot;}],&quot;id&quot;:&quot;1&quot;,&quot;modified_time&quot;:&quot;2021-10-
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="http://yoursite.com/2021/10/17/vx_notebook/vx_notebook/"/>
     <id>http://yoursite.com/2021/10/17/vx_notebook/vx_notebook/</id>
     <published>2021-10-17T08:41:56.215Z</published>
@@ -404,29 +425,6 @@
     <id>http://yoursite.com/2021/07/17/AudoHotKey-用法/</id>
     <published>2021-07-17T10:13:18.000Z</published>
     <updated>2021-10-17T08:45:16.966Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="基本语法说明"><a href="#基本语法说明" class="headerlink" title="基本语法说明"></a>基本语法说明</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">分号（;）：注释</span><br><span class="line">叹号（!）：Alt 键</span><br><span class="line">脱字符（^）：ctrl 键</span><br><span class="line">双冒号（::）：连接指令</span><br><span class="line">Run：运行程序，后跟程序绝对路径</span><br><span class="line">以上符号均为英文输入法状态。</span><br></pre></td></tr></table></figure><h2 id="自定义部分常用快捷键"><a href="#自定义部分常用快捷键" class="headerlink" title="自定义部分常用快捷键"></a>自定义部分常用快捷键</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">!4::send ^w &#123;return&#125; ;关闭当前窗口</span><br><span class="line">!4::!f4</span><br><span class="line">!s::Run D:\Program Files\Everything\Everything.exe ;运行Everthing</span><br><span class="line">!v::Run E:\Personal\Useful.txt </span><br><span class="line">!d::Run E:\</span><br><span class="line">!e::Run D:\Program Files\Yinxiang Biji\Evernote.exe</span><br><span class="line">!c::Run C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</span><br><span class="line">!t::Run &quot;D:\Program Files\telegram\Telegram.exe&quot;</span><br><span class="line">!x::Run D:\Program Files\Thunder\Program\Thunder.exe</span><br><span class="line">!n::Run %windir%\system32\notepad.exe</span><br><span class="line">!m::Run D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe</span><br><span class="line">^m::Run C:\Users\warren\AppData\Roaming\Spotify\Spotify.exe</span><br><span class="line">^Left::Media_Prev ;上一曲</span><br><span class="line">^Right::Media_Next ;下一曲</span><br><span class="line">^Space::Media_Play_Pause ;暂停/播放</span><br><span class="line"> </span><br><span class="line">!j::Run D:\Program Files (x86)\MarkdownPad 2\MarkdownPad2.exe</span><br><span class="line">!1::Run D:\Program Files\c++API.chm</span><br><span class="line">^Up::Send &#123;Volume_Up&#125; ;音量 +</span><br><span class="line">^Down::Send &#123;Volume_Down&#125; ;音量 -</span><br><span class="line">!q:: ;最大窗口/最小窗口</span><br><span class="line">WinGet,S,MinMax,A</span><br><span class="line">if S=0</span><br><span class="line">WinMaximize A </span><br><span class="line">else if S=1</span><br><span class="line">WinRestore A</span><br><span class="line">else if S=-1</span><br><span class="line">WinRestore A</span><br><span class="line">Return</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;基本语法说明&quot;&gt;&lt;a href=&quot;#基本语法说明&quot; class=&quot;headerlink&quot; title=&quot;基本语法说明&quot;&gt;&lt;/a&gt;基本语法说明&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
-      
-    
-    </summary>
-    
-    
-      <category term="AutoHotKey" scheme="http://yoursite.com/tags/AutoHotKey/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AutoHotKey 基本用法</title>
-    <link href="http://yoursite.com/2021/07/17/vx_recycle_bin/20211017/AudoHotKey-%E7%94%A8%E6%B3%95/"/>
-    <id>http://yoursite.com/2021/07/17/vx_recycle_bin/20211017/AudoHotKey-用法/</id>
-    <published>2021-07-17T10:13:18.000Z</published>
-    <updated>2021-07-17T10:39:36.843Z</updated>
     
     <content type="html"><![CDATA[<h2 id="基本语法说明"><a href="#基本语法说明" class="headerlink" title="基本语法说明"></a>基本语法说明</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">分号（;）：注释</span><br><span class="line">叹号（!）：Alt 键</span><br><span class="line">脱字符（^）：ctrl 键</span><br><span class="line">双冒号（::）：连接指令</span><br><span class="line">Run：运行程序，后跟程序绝对路径</span><br><span class="line">以上符号均为英文输入法状态。</span><br></pre></td></tr></table></figure><h2 id="自定义部分常用快捷键"><a href="#自定义部分常用快捷键" class="headerlink" title="自定义部分常用快捷键"></a>自定义部分常用快捷键</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">!4::send ^w &#123;return&#125; ;关闭当前窗口</span><br><span class="line">!4::!f4</span><br><span class="line">!s::Run D:\Program Files\Everything\Everything.exe ;运行Everthing</span><br><span class="line">!v::Run E:\Personal\Useful.txt </span><br><span class="line">!d::Run E:\</span><br><span class="line">!e::Run D:\Program Files\Yinxiang Biji\Evernote.exe</span><br><span class="line">!c::Run C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</span><br><span class="line">!t::Run &quot;D:\Program Files\telegram\Telegram.exe&quot;</span><br><span class="line">!x::Run D:\Program Files\Thunder\Program\Thunder.exe</span><br><span class="line">!n::Run %windir%\system32\notepad.exe</span><br><span class="line">!m::Run D:\Program Files (x86)\Netease\CloudMusic\cloudmusic.exe</span><br><span class="line">^m::Run C:\Users\warren\AppData\Roaming\Spotify\Spotify.exe</span><br><span class="line">^Left::Media_Prev ;上一曲</span><br><span class="line">^Right::Media_Next ;下一曲</span><br><span class="line">^Space::Media_Play_Pause ;暂停/播放</span><br><span class="line"> </span><br><span class="line">!j::Run D:\Program Files (x86)\MarkdownPad 2\MarkdownPad2.exe</span><br><span class="line">!1::Run D:\Program Files\c++API.chm</span><br><span class="line">^Up::Send &#123;Volume_Up&#125; ;音量 +</span><br><span class="line">^Down::Send &#123;Volume_Down&#125; ;音量 -</span><br><span class="line">!q:: ;最大窗口/最小窗口</span><br><span class="line">WinGet,S,MinMax,A</span><br><span class="line">if S=0</span><br><span class="line">WinMaximize A </span><br><span class="line">else if S=1</span><br><span class="line">WinRestore A</span><br><span class="line">else if S=-1</span><br><span class="line">WinRestore A</span><br><span class="line">Return</span><br></pre></td></tr></table></figure>]]></content>
     
